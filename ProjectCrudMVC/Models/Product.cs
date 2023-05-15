@@ -9,12 +9,17 @@ namespace ProjectCrudMVC.Models
     public class Product
     {
         [Column("Id")]
-        [Display(Name = "Código")]
+        [Display(Name = "Id")]
         public int Id { get; set; }
 
 
         [Column("Name")]
-       [Display(Name= "Nome")]
+       [Display(Name= "Name")]
         public string Name { get; set; }
+
+        [Column("Ean")]
+        [Display(Name = "Ean")]
+        public int Ean { get; set; }
+
     }
 }

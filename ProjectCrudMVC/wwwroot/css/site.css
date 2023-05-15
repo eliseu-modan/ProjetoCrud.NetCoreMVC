@@ -16,3 +16,27 @@ html {
 body {
   margin-bottom: 60px;
 }
+.mudarcorDoTitulo{
+color:blue;
+
+
+}
+.mudarCorDoCreateNew {
+    position: relative;
+    top: 50px;
+    color: darkgreen;
+    text-decoration: none;
+}
+.table{
+    position:relative;
+    top:50px;
+}
+.mudarCorAcoes {
+    position: relative;
+    text-decoration: none;
+    color: green;
+}
+.mudarCordelete{
+    color:red;
+    text-decoration:none;
+}
